@@ -73,4 +73,3 @@ if __name__=="__main__":
     router.add(method="POST", path="^/index$", callback=sub)
     router.match(method="GET", path="/")
     router.match(method="POST", path="/index")
-
