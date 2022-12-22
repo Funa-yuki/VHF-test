@@ -10,7 +10,6 @@ fmt = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 h.setFormatter(fmt)
 logger.addHandler(h)
 
-
 # def escape_long_fetch(cur, que, request):
 #     fetch = 0
 #     for e in cur:

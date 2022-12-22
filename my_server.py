@@ -5,6 +5,7 @@ from app import *
 # def コールバック関数(request):
 #   コールバック関数内の処理
 #   return "webブラウザに返却するページ"
+
 @app.route("^/$")
 def index(request):
   from bottle import jinja2_template as tmpl

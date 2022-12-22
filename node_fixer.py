@@ -1,5 +1,4 @@
 from inserted_functions import *
-
 import ast
 
 class NodeFixer(object):
