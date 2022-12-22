@@ -67,5 +67,3 @@ class Request:
     @property
     def content_type(self):
         return self.environ.get("CONTENT_TYPE", "").lower()
-
-        
