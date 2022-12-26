@@ -1,6 +1,7 @@
 # vhfをimportする
 from app import *
 
+
 # @app.route("パスの正規表現",  "リクエストメソッド")
 # def コールバック関数(request):
 #   コールバック関数内の処理
